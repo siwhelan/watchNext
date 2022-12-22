@@ -3,8 +3,10 @@ import spacy
 
 nlp = spacy.load("en_core_web_md")
 
+hulk_description = "Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk land on the planet Sakaar where he is sold into slavery and trained as a gladiator"
 
-def watch_next():
+
+def watch_next(description):
 
     # Read the file and store the data in a dictionary
 
@@ -16,8 +18,6 @@ def watch_next():
         # print(movies_dict)
 
     # Set the description of the previously watched movie
-
-    hulk_description = "Will he save their world or destroy it? When the Hulk becomes too dangerous for the Earth, the Illuminati trick Hulk into a shuttle and launch him into space to a planet where the Hulk can live in peace. Unfortunately, Hulk land on the planet Sakaar where he is sold into slavery and trained as a gladiator"
 
     hulk_desc = nlp(hulk_description)
 
@@ -50,4 +50,4 @@ def watch_next():
     return suggested_film
 
 
-print(watch_next())
+print(watch_next(hulk_description))
