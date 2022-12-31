@@ -1,4 +1,4 @@
-# watchNext
+# watchNext 📽️🎬🍿
 
 Welcome to watchNext - the Movie Recommendation System! This program allows you to get movie recommendations based on the similarity of their descriptions. Simply enter the description of a movie you have recently watched, and the program will use the spacy library to process the descriptions of a list of movies stored in a text file and calculate the similarity scores between the entered movie and each of the other movies. The movie with the highest similarity score will then be recommended to you as the next film to watch.
 
