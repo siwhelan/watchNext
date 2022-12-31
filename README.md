@@ -4,11 +4,7 @@ Welcome to watchNext - the Movie Recommendation System! This program allows you 
 
 ## Installation
 
-To use the Movie Recommendation System, you will need to have the following dependencies installed:
-
-    spacy
-
-You can install these dependencies using pip:
+To use the Movie Recommendation System, you will need to have the SpaCy dependency installed. You can install this by using:
 
   pip install spacy
 
