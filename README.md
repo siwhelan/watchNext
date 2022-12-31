@@ -6,13 +6,13 @@ Welcome to watchNext - the Movie Recommendation System! This program allows you 
 
 To use the Movie Recommendation System, you will need to have the SpaCy dependency installed. You can install this by using:
 
-  pip install spacy
+    pip install spacy
 
 ## Usage
 
 To use the program, simply run it and enter the description of the movie you have recently watched when prompted. The program will then output the title of the recommended movie for you to watch next.
 
-  python watch_next.py
+    python watch_next.py
 
 ## Error Handling
 
